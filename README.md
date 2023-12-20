@@ -25,3 +25,12 @@ Classify iris plants into three species in this classic dataset
 </table>
 
 <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*H2UmG5L1I5bzFCW006N5Ag.png" />
+
+### EDA
+***
+![bar_graph](https://github.com/Vengatesan-K/Python-Assessment/assets/128688827/3955b9a8-791b-4f0f-8bfe-1147b8dd7fbb)
+
+![kde](https://github.com/Vengatesan-K/Python-Assessment/assets/128688827/4baa7716-34a7-40f6-8147-06892ccbc6b8)
+
+![graph](https://github.com/Vengatesan-K/Python-Assessment/assets/128688827/c28476eb-f41b-4208-88f9-8e144524adff)
+
