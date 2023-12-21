@@ -8,7 +8,7 @@ model = joblib.load('best_log_model.pkl')
 
 app = Flask(__name__)
 
-IMG_FOLDER = os.path.join('Styling', 'IMG')
+IMG_FOLDER = os.path.join('static', 'IMG')
 app.config['UPLOAD_FOLDER'] = IMG_FOLDER
 
 
