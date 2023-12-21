@@ -26,7 +26,7 @@ def home():
         pw = request.form['PetalWidth']
         data = np.array([[sl, sw, pl, pw]], dtype=float)
         prediction = model.predict(data)
-        image = prediction[0] + '.png'
+        image = prediction[0]+'.png'
         image = os.path.join(app.config['UPLOAD_FOLDER'], image)
         return render_template('index.html', prediction=prediction[0], image=image)
     return render_template('index.html')
