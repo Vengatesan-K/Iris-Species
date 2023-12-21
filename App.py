@@ -8,7 +8,7 @@ model = joblib.load('best_log_model.pkl')
 
 app = Flask(__name__)
 
-IMG_FOLDER = os.path.join('Styling','IMG')
+IMG_FOLDER = os.path.join('Styling', 'IMG')
 app.config['UPLOAD_FOLDER'] = IMG_FOLDER
 
 
@@ -16,14 +16,14 @@ app.config['UPLOAD_FOLDER'] = IMG_FOLDER
 def index():
     return render_template('index.html')
 
-@app.route('/', methods=['POST', 'GET'])
+@app.route('/', methods=['GET', 'POST'])
 def home():
     if request.method == 'POST':
-        sepal_length = float(request.form['sepal_length'])
-        sepal_width =  float(request.form['sepal_width'])
-        petal_length = float(request.form['petal_length'])
-        petal_width = float(request.form['petal_width'])
-        data = np.array([[sepal_length,sepal_width,petal_length,petal_width]],dtype = float)
+        sepal_length = request.form['sepal_length']
+        sepal_width =  request.form['sepal_width']
+        petal_length = request.form['petal_length']
+        petal_width = request.form['petal_width']
+        data = np.array([[sepal_length,sepal_width,petal_length,petal_width]], dtype = float)
         result = model.predict(data)
         image = result[0] + '.jpg'
         image = os.path.join(app.config['UPLOAD_FOLDER'], image)
