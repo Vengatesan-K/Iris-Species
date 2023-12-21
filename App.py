@@ -25,7 +25,7 @@ def home():
         petal_width = float(request.form['petal_width'])
         data = np.array([[sepal_length,sepal_width,petal_length,petal_width]],dtype = float)
         result = model.predict(data)
-        image = result[0] + '.png'
+        image = result[0] + '.jpg'
         image = os.path.join(app.config['UPLOAD_FOLDER'], image)
         return render_template('index.html', result=result[0],image=image)
     
