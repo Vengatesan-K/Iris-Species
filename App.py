@@ -19,11 +19,11 @@ def index():
 @app.route('/', methods=['GET', 'POST'])
 def home():
     if request.method == 'POST':
-        sepal_length = request.form['sepal_length']
-        sepal_width =  request.form['sepal_width']
-        petal_length = request.form['petal_length']
-        petal_width = request.form['petal_width']
-        data = np.array([[sepal_length,sepal_width,petal_length,petal_width]], dtype = float)
+        sl = request.form['SepalLength']
+        sw =  request.form['SepalWidth']
+        pl = request.form['PetalLength']
+        pw = request.form['PetalWidth']
+        data = np.array([[sl,sw,pl,pw]], dtype = float)
         result = model.predict(data)
         image = result[0] + '.jpg'
         image = os.path.join(app.config['UPLOAD_FOLDER'], image)
