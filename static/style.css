@@ -42,13 +42,13 @@ input {
 	background-image: url('https://cdn1.vectorstock.com/i/1000x1000/29/75/watercolor-garden-iris-flowers-isolated-on-white-vector-10372975.jpg');
 	background-repeat: no-repeat;
 	background-size: 70%;
-	background-position: 100px 8%;
+	background-position: 180px 8%;
 	position: relative;
 }
 
 .card-heading {
 	position: absolute;
-	left: 10%;
+	left: 7%;
 	top: 10%;
 	right: 10%;
 	font-size: 2rem;
@@ -71,9 +71,9 @@ input {
 	display: flex;
 	flex-direction: column-reverse;
 	position: relative;
-	padding-top: 1.75rem;
+	padding-top: 1.5rem;
 	&+.input {
-		margin-top: 1.75rem;
+		margin-top: 1.5rem;
 	}
 }
 
@@ -89,7 +89,7 @@ input {
 	background-color: transparent;
 	border-bottom: 2px solid #eee; 
 	font: inherit;
-	font-size: 1.25rem;
+	font-size: 1.125rem;
 	padding: .25rem 0;
 	&:focus, &:valid {
 		outline: 0;
