@@ -28,7 +28,7 @@ input {
 	display: flex;
 	flex-direction: column;
 	width: 200%;
-	max-width: 600px;
+	max-width: 900px;
 	background-color: #FFF;
 	border-radius: 10px;
 	box-shadow: 0 10px 20px 0 rgba(#999, .25);
@@ -41,7 +41,7 @@ input {
 	padding-bottom: 65%;
 	background-image: url('https://cdn1.vectorstock.com/i/1000x1000/29/75/watercolor-garden-iris-flowers-isolated-on-white-vector-10372975.jpg');
 	background-repeat: no-repeat;
-	background-size: 150%;
+	background-size: 100%;
 	background-position: 0 5%;
 	position: relative;
 }
