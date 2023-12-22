@@ -27,8 +27,8 @@ input {
 	margin: 3rem auto;
 	display: flex;
 	flex-direction: column;
-	width: 100%;
-	max-width: 500px;
+	width: 200%;
+	max-width: 600px;
 	background-color: #FFF;
 	border-radius: 10px;
 	box-shadow: 0 10px 20px 0 rgba(#999, .25);
