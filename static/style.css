@@ -64,7 +64,7 @@ input {
 }
 
 .card-form {
-	padding: 3rem 1rem 0;
+	padding: 2rem 2rem 0;
 }
 
 .input {
@@ -121,7 +121,7 @@ input {
 }
 
 .card-info {
-	padding: 2rem 1rem;
+	padding: 1rem 2rem;
 	text-align: center;
 	font-size: .875rem;
 	color: #8597a3;
