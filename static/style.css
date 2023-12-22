@@ -38,11 +38,11 @@ input {
 .card-image {
 	border-radius: 8px;
 	overflow: hidden;
-	padding-bottom: 35%;
+	padding-bottom: 50%;
 	background-image: url('https://cdn1.vectorstock.com/i/1000x1000/29/75/watercolor-garden-iris-flowers-isolated-on-white-vector-10372975.jpg');
 	background-repeat: no-repeat;
 	background-size: 80%;
-	background-position: 0 5%;
+	background-position: 0 6%;
 	position: relative;
 }
 
