@@ -41,7 +41,7 @@ input {
 	padding-bottom: 25%;
 	background-image: url('https://cdn1.vectorstock.com/i/1000x1000/29/75/watercolor-garden-iris-flowers-isolated-on-white-vector-10372975.jpg');
 	background-repeat: no-repeat;
-	background-size: 120%;
+	background-size: 170%;
 	background-position: 100px 8%;
 	position: relative;
 }
@@ -108,8 +108,8 @@ input {
 .action-button {
 	font: inherit;
 	font-size: 1.25rem;
-	padding: 1em;
-	width: 60%;
+	padding: 0.7em;
+	width: 100%;
 	font-weight: 500;
 	background-color: #6658d3;
 	border-radius: 6px;
