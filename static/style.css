@@ -41,7 +41,7 @@ input {
 	padding-bottom: 25%;
 	background-image: url('https://cdn1.vectorstock.com/i/1000x1000/29/75/watercolor-garden-iris-flowers-isolated-on-white-vector-10372975.jpg');
 	background-repeat: no-repeat;
-	background-size: 170%;
+	background-size: 70%;
 	background-position: 100px 8%;
 	position: relative;
 }
@@ -51,7 +51,7 @@ input {
 	left: 10%;
 	top: 10%;
 	right: 10%;
-	font-size: 1.75rem;
+	font-size: 2rem;
 	font-weight: 800;
 	color: #400a88;
 	line-height: 1.222;
