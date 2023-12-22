@@ -42,7 +42,7 @@ input {
 	background-image: url('https://cdn1.vectorstock.com/i/1000x1000/29/75/watercolor-garden-iris-flowers-isolated-on-white-vector-10372975.jpg');
 	background-repeat: no-repeat;
 	background-size: 70%;
-	background-position: 180px 8%;
+	background-position: 220px 12%;
 	position: relative;
 }
 
@@ -54,7 +54,7 @@ input {
 	font-size: 2rem;
 	font-weight: 800;
 	color: #400a88;
-	line-height: 1.222;
+	line-height: 1.322;
 	small {
 		display: block;
 		font-size: .75em;
