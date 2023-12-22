@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
-.increased-size {
-    width: 1500px;
-    height: 1000px;
-}
+
 *, *:after, *:before {
 	box-sizing: border-box;
 }
@@ -44,7 +41,7 @@ input {
 	padding-bottom: 65%;
 	background-image: url('https://cdn1.vectorstock.com/i/1000x1000/29/75/watercolor-garden-iris-flowers-isolated-on-white-vector-10372975.jpg');
 	background-repeat: no-repeat;
-	background-size: 150%;
+	background-size: 200%;
 	background-position: 0 5%;
 	position: relative;
 }
